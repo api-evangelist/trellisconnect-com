@@ -64,23 +64,43 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Trellis, operating under the Savvy brand, offers an AI‑driven insurance marketplace that helps consumers compare and purchase car insurance. By anonymously gathering rate estimates and presenting personalized quotes, Savvy aims to simplify the insurance buying process while protecting user data. The platform partners with over 80 insurers across the United States, providing a streamlined, commission‑free experience for shoppers seeking better rates.
+Trellis Connect is a VC‑backed fintech startup that provides APIs for integrating insurance and financial services, enabling partners to connect, exchange data, and automate workflows. Documentation and API reference are publicly available at docs.trellisconnect.com, which includes getting‑started guides, pricing, terms, and privacy information.
 
-**Areas:** Insurance · Car Insurance · Licensed Agency · AI Assistants
+**Areas:** FinTech · Insurance · API · Startup · VC-backed
 
 ## Trellis on APIs.io
 
 Everything profiled for Trellis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/trellisconnect-com/](https://apis.io/providers/trellisconnect-com/)** — or go straight to one of the APIs or properties below.
 
+### APIs (2)
+
+- [Trellis Connect API](https://apis.io/apis/trellisconnect-com/trellis-connect-api/) — Trellis Connect API v1.1.0 provides endpoints for accounts, policies, and insurance data.
+- [Trellis API](https://apis.io/apis/trellisconnect-com/trellisconnect-com-api/) — Trellis API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own document.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Overlays (1)
+#### JSON Schema (4)
 
-OpenAPI overlays, including conversational phrasing for each operation.
+The data models the API reads and writes.
 
-- [Trellisconnect Com Openapi Overlay](https://apis.io/overlays/trellisconnect-com/trellisconnect-com-openapi-overlay/)
+- [GetAccountAccountidPoliciesResponse](https://apis.io/schemas/trellisconnect-com/trellisconnect-com-get-account-accountid-policies-response/)
+- [GetAccountAccountidResponse](https://apis.io/schemas/trellisconnect-com/trellisconnect-com-get-account-accountid-response/)
+- [GetTrellisConnect110AccountAccountidPoliciesResponse](https://apis.io/schemas/trellisconnect-com/trellisconnect-com-get-trellis-connect110-account-accountid-policies-response/)
+- [GetTrellisConnect110AccountAccountidResponse](https://apis.io/schemas/trellisconnect-com/trellisconnect-com-get-trellis-connect110-account-accountid-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Trellisconnect Com Context](https://apis.io/jsonld/trellisconnect-com/trellisconnect-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Trellis API Rules](https://apis.io/rules/trellisconnect-com/trellisconnect-com-rules/)
 
 #### Security (2)
 
@@ -93,52 +113,19 @@ Authentication, trust centre, and vulnerability disclosure.
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://savvy.insure)
-- [Documentation](https://docs.trellisconnect.com/)
-- [Terms of service](https://savvy.insure/terms)
-- [Privacy policy](https://savvy.insure/privacy)
+- [Documentation](https://docs.trellisconnect.com)
+- [Getting started](https://docs.trellisconnect.com/getting-started)
+- [API reference](https://docs.trellisconnect.com)
+- [Pricing](https://docs.trellisconnect.com/pricing)
+- [Terms of service](https://docs.trellisconnect.com/terms)
+- [Privacy policy](https://docs.trellisconnect.com/privacy)
 - [GitHub](https://github.com/trellisconnect)
 
 ## API Evangelist rating
 
-**Kin Score 13.3** — emerging · rubric 0.24.0 · scored 2026-10-29
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Facet | Score |
-|---|---|
-| Discoverability | 39.3 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
-| Operational transparency | 5.3 |
-| Developer ergonomics | 21.4 |
-| Access clarity | 21.1 |
-
-**Agent readiness 8.5** — agent-aware
-
-| Agent-readiness dimension | Result |
-|---|---|
-| Spec Presence | — |
-| Agentic Access | — |
-| Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
-| Auth Clarity | bearer (partial credit) |
-| Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
-| Event Surface Described | — |
-| Agent Skills | — |
-| Well Known Catalog | yes |
-| Consent Identity | — |
-| Agent Card | — |
-| Dry Run Mode | — |
-| Delegated Identity | — |
-| Protected Resource Metadata | — |
-| Dynamic Client Registration | — |
-| Agentic Commerce | — |
-
-**Regulatory alignment 17.5** — Insurance
-
-The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/trellisconnect-com/](https://apis.io/providers/trellisconnect-com/).
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
 ## How this profile is made
 
